@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+
+
+#map { height: 100vh; 
+z-index: 1;
+}
+
+#interfejs{
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    right: 1px;
+    background-color: azure;
+    opacity: 0.8;
+    z-index: 2;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+

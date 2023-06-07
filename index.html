@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+ integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+ crossorigin=""></script>
+    <title>Gra Wojewodztwa</title>
+</head>
+<body>
+    
+     <div id="interfejs">
+        <button style=" width: 200px; height: 50px;" onclick="wylosujWojewodztwo()">Losuj</button>
+
+   <!--     <h1 id="wylosowane"></h1>          --> 
+
+
+   <input type="text" id="powiaty" size="30">
+   <button style="width: 200px; height: 50px;"  onclick="Send()">Sprawdz</button>
+
+   <div id="punkty"></div>
+              
+   
+   <div id="lives"></div>
+   
+
+   
+          
+       
+
+
+
+     </div> 
+
+    <div id="map"></div>
+ 
+     <script src="woje.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
